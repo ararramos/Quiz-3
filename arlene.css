@@ -1,0 +1,105 @@
+*{
+    font-family:'Courier New', Courier, monospace;
+}
+header {
+    background-image: url(image/abstract-blue-digital-art-simple.jpg);
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-decoration: none;
+    padding:10px;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    text-transform: uppercase;
+    border: 5px solid white;
+    border-bottom: 5px solid white;
+    margin-right: 20px;
+    margin-left: 15px;
+}
+a {
+    padding-right: 30px;
+    text-decoration: none;
+}
+a:hover{
+    background-color:cornflowerblue;
+    
+}
+footer{
+    text-align: center;
+}
+body{
+    background-image: url(image/digital\ blue\ background.jpg);
+    background-repeat: no-repeat;
+}
+h1{
+    text-align: center;
+    color: white
+}
+nav{
+    text-align: right;
+    padding: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+h2{
+    text-align:left;
+    padding: 20px;
+    color: white;
+    font-size: 30px;
+}
+li{
+    color:white;
+}
+p{
+    background-image: url(image/digital\ blue\ background.jpg);
+    font-size: 20px;
+    color: beige;
+    padding: 30px;
+    margin: 25px;
+    border: 30px;
+    border-color: black;
+}
+ol{
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.bar1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px;
+}
+.side1{
+    margin-top: 20px;
+    margin-right: 20px;
+    height: 320px;
+    width: 1000px;
+    padding: 10px;
+}
+.side2{
+    margin-top: 70px;
+    height: 230px;
+    width: 1000px; 
+}
+.side3{
+    height: 400px;
+    width: 500px;
+    padding: 10px;
+    margin-top: 250px;
+}
+footer{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
